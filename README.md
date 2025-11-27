@@ -20,18 +20,12 @@ Transforma ideias em especificações claras, organizadas e acionáveis. É onde
 
 
 - Business Canvas
-  - Mapeia o valor do produto ou sistema no nível estratégico.
-  
-    - Proposta de Valor
-      - Define o problema do usuário, os benefícios entregues e o diferencial da solução.
-     
-        
-    - Modelo de Negócio
-      - Explica como a solução gera valor e sustenta suas operações (segmentos de clientes, canais, custos, receitas).
-     
-        
-    - Descrição do Produto
-      - Especifica funcionalidades principais, público-alvo, necessidades atendidas, fluxo macro de uso.
+  - Proposta de Valor
+    - Define o problema do usuário, os benefícios entregues e o diferencial da solução.
+  - Modelo de Negócio
+    - Explica como a solução gera valor e sustenta suas operações (segmentos de clientes, canais, custos, receitas).  
+  - Descrição do Produto
+    - Especifica funcionalidades principais, público-alvo, necessidades atendidas, fluxo macro de uso.
 
 
 - UX/UI
@@ -97,7 +91,7 @@ Etapa responsável por atribuir tarefas a agentes, desenvolvedores ou pipelines 
 
 ---
 ## Asses
-verifica qualidade, segurança, estilo, estrutura e riscos antes de aprovar um commit, um pull request ou uma nova feature
+Verifica qualidade, segurança, estilo, estrutura e riscos antes de aprovar um commit, um pull request ou uma nova feature
 
 - Automated Code Review
   - lint (verifica uso incorreto de variáveis, formatação inconsistente, identação errada, código morto, padrões que podem gerar bugs, violações de estilo)
@@ -111,7 +105,31 @@ verifica qualidade, segurança, estilo, estrutura e riscos antes de aprovar um c
 
 
 ## Codify
+O objetivo é que o sistema aprenda com cada entrega, acumulando conhecimento.
 
 - New guidelines inside
-- CLAUDE.md
-- AGENT.md
+  - Atualização contínua da documentação técnica:
+    - novas práticas
+    - padrões de arquitetura
+    - recomendações
+    - regras de design de código
+    - exemplos corrigidos
+   
+  - CLAUDE.md
+    - Documento que instrui agentes de IA sobre:
+      - como agir dentro do repositório
+      - como gerar código
+      - como seguir as guidelines
+      - quais padrões adotar
+      - como interpretar decisões prévias
+     
+
+  - AGENT.md
+    - Define regras específicas para cada agente:
+      - capacidades
+      - limites
+      - estilos de resposta
+      - escopo de atuação
+      - workflows internos
+      - padrões de commit
+      - forma correta de abrir PR
